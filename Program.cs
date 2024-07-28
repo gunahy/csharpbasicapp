@@ -1,12 +1,10 @@
 ﻿
+using CSharpBasicApp;
+
 class MainClass
 {
     public static void Main(string[] args)
     {
-        if (args is null)
-        {
-            throw new ArgumentNullException(nameof(args));
-        }
 
         DaysOfWeek MyFavoriteDay;
 
@@ -15,6 +13,10 @@ class MainClass
         Console.WriteLine(MyFavoriteDay);
 
         Console.WriteLine(Semaphore.Green);
+
+        Console.ReadKey();
+
+        IfElse.ChoiseColor();
     }
 }
 
@@ -31,4 +33,10 @@ enum Semaphore : int
     Red = 100,
     Yellow = 200,
     Green = 300,
+}
+
+class Singleton { 
+    static Singleton() { 
+
+    }
 }
