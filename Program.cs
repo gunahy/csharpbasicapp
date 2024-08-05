@@ -6,17 +6,41 @@ class MainClass
     public static void Main(string[] args)
     {
 
-        DaysOfWeek MyFavoriteDay;
+        //daysofweek myfavoriteday;
 
-        MyFavoriteDay = DaysOfWeek.Friday;
+        //myfavoriteday = daysofweek.friday;
 
-        Console.WriteLine(MyFavoriteDay);
+        //console.writeline(myfavoriteday);
 
-        Console.WriteLine(Semaphore.Green);
+        //console.writeline(semaphore.green);
 
+        //console.readkey();
+
+        //ifelse.choisecolor();
+
+        //Cicles.Exsamle();
+
+        //Arrays.ChangeCharInName();
+
+        //int[,] array = { { 1, 2, 3 }, { 5, 6, 7 } };
+        //Console.WriteLine(array.Length);
+        //foreach (int i in array) Console.WriteLine(i);
+
+        //Arrays.ArraySort();
+        //Arrays.ArrWeight();
+
+        Console.WriteLine("Напишите что-то");
+        var str = Console.ReadLine();
+
+        Console.WriteLine("Укажите глубину эха");
+        var deep = int.Parse(Console.ReadLine());
+
+        Recurse.Echo(str, deep);
+
+        Console.WriteLine(Recurse.Factorial(20));
+
+        Console.WriteLine(Recurse.PowerUp(2, 3));
         Console.ReadKey();
-
-        IfElse.ChoiseColor();
     }
 }
 
