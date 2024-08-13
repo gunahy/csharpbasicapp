@@ -29,18 +29,20 @@ class MainClass
         //Arrays.ArraySort();
         //Arrays.ArrWeight();
 
-        Console.WriteLine("Напишите что-то");
-        var str = Console.ReadLine();
+        //Console.WriteLine("Напишите что-то");
+        //var str = Console.ReadLine();
 
-        Console.WriteLine("Укажите глубину эха");
-        var deep = int.Parse(Console.ReadLine());
+        //Console.WriteLine("Укажите глубину эха");
+        //var deep = int.Parse(Console.ReadLine());
 
-        Recurse.Echo(str, deep);
+        //Recurse.Echo(str, deep);
 
-        Console.WriteLine(Recurse.Factorial(20));
+        //Console.WriteLine(Recurse.Factorial(20));
 
-        Console.WriteLine(Recurse.PowerUp(2, 3));
-        Console.ReadKey();
+        //Console.WriteLine(Recurse.PowerUp(2, 3));
+        //Console.ReadKey();
+
+        Exercise56.Run();
     }
 }
 
